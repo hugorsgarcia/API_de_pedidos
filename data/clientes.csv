@@ -1,0 +1,11 @@
+id,nome,email,cidade,telefone,endereco
+1,João Silva,joao@email.com,São Paulo,(11) 99999-1111,Rua das Flores 123
+2,Maria Santos,maria@email.com,Rio de Janeiro,(21) 88888-2222,Av. Atlântica 456
+3,Pedro Oliveira,pedro@email.com,Belo Horizonte,(31) 77777-3333,Rua da Liberdade 789
+4,Ana Costa,ana@email.com,Curitiba,(41) 66666-4444,Av. Paulista 101
+5,Carlos Lima,carlos@email.com,Salvador,(71) 55555-5555,Rua do Centro 202
+6,Lucia Fernandes,lucia@email.com,Fortaleza,(85) 44444-6666,Av. Beira Mar 303
+7,Roberto Alves,roberto@email.com,Brasília,(61) 33333-7777,Quadra 404
+8,Fernanda Rocha,fernanda@email.com,Recife,(81) 22222-8888,Rua Boa Vista 505
+9,Marcos Souza,marcos@email.com,Porto Alegre,(51) 11111-9999,Av. Ipiranga 606
+10,Juliana Pereira,juliana@email.com,Manaus,(92) 10101-0000,Rua Amazonas 707

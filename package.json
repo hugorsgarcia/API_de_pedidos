@@ -1,0 +1,25 @@
+{
+  "name": "sistema-pedidos",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de pedidos com Node.js, MySQL e Knex.js",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run",
+    "rollback": "knex migrate:rollback"
+  },
+  "keywords": ["nodejs", "mysql", "knex", "fastify", "orders", "system"],
+  "author": "Hugo Garcia",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "@fastify/cors": "^8.4.0",
+    "knex": "^3.0.1",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

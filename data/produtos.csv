@@ -1,0 +1,11 @@
+id,nome,preco,id_marca,descricao,estoque
+1,iPhone 15,4999.99,1,Smartphone da Apple,50
+2,Galaxy S24,3999.99,2,Smartphone da Samsung,30
+3,Tênis Air Max,599.99,3,Tênis esportivo da Nike,100
+4,Tênis Ultraboost,699.99,4,Tênis de corrida da Adidas,80
+5,PlayStation 5,2499.99,5,Console da Sony,25
+6,MacBook Pro,8999.99,1,Notebook da Apple,20
+7,Galaxy Buds,299.99,2,Fones de ouvido da Samsung,150
+8,Chuteira Mercurial,499.99,3,Chuteira da Nike,60
+9,Mochila Adidas,199.99,4,Mochila esportiva,200
+10,Camera Alpha,1999.99,5,Câmera digital da Sony,15

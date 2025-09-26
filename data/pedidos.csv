@@ -1,0 +1,11 @@
+id,id_cliente,data,total,status,observacoes
+1,1,2024-09-01 10:30:00,5599.98,entregue,Pedido urgente
+2,2,2024-09-02 14:15:00,4299.98,enviado,Entrega normal
+3,3,2024-09-03 09:45:00,1199.98,processando,Cliente VIP
+4,4,2024-09-04 16:20:00,899.98,pendente,Aguardando pagamento
+5,5,2024-09-05 11:10:00,2699.98,entregue,Presente de aniversário
+6,6,2024-09-06 13:30:00,9599.98,enviado,Pedido corporativo
+7,7,2024-09-07 15:45:00,599.97,entregue,Entrega expressa
+8,8,2024-09-08 08:15:00,699.99,processando,Primeira compra
+9,9,2024-09-09 17:30:00,399.98,pendente,Desconto aplicado
+10,10,2024-09-10 12:00:00,1999.99,enviado,Cliente fidelidade
