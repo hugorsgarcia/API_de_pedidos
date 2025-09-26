@@ -3,10 +3,11 @@
 ## Progresso do Projeto
 
 - [x] Configuração inicial
-- [ ] Migrations
-- [ ] Seeds
-- [ ] API com Fastify
-- [ ] Documentação
+- [x] Migrations
+- [x] Seeds
+- [x] API com Fastify
+- [x] Documentação
+- [x] Commit inicial realizado
 
 ## Tecnologias
 - Node.js
