@@ -272,9 +272,9 @@ Content-Type: application/json
 ## 📞 Contato
 
 **Hugo Garcia**
-- Email: [seu-email@exemplo.com]
-- LinkedIn: [seu-linkedin]
+- Email: [contatohugogarcia@outlook.com]
+- LinkedIn: [linkedin.com/in/hugorsgarcia/]
 
 ---
 
-💻 **Desenvolvido com ❤️ usando Node.js, MySQL e Knex.js**
+💻 **Desenvolvido por Hugo Garcia usando Node.js, MySQL e Knex.js**
