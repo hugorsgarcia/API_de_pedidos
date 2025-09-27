@@ -68,6 +68,17 @@ npm run dev
 
 O servidor estará rodando em: `http://localhost:3000`
 
+### 7. Acessar a documentação interativa (Swagger)
+```
+http://localhost:3000/docs
+```
+
+A API possui documentação completa e interativa com Swagger UI, onde você pode:
+- Visualizar todos os endpoints
+- Testar as rotas diretamente no navegador
+- Ver exemplos de requisições e respostas
+- Validar dados em tempo real
+
 ## 📊 Estrutura do Banco de Dados
 
 O sistema possui 5 tabelas principais:
@@ -141,6 +152,7 @@ O sistema possui 5 tabelas principais:
 ### Utilitários
 - `GET /` - Health check da API
 - `GET /routes` - Lista todas as rotas disponíveis
+- `GET /docs` - **Documentação Swagger interativa**
 
 ## 📝 Formato de Resposta
 

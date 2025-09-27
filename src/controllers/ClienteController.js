@@ -71,7 +71,7 @@ class ClienteController {
           error: true
         });
       }
-
+      // Inserir novo cliente
       const [clienteId] = await db('clientes').insert({
         nome,
         email,

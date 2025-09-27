@@ -6,10 +6,10 @@ const path = require('path');
  * @returns { Promise<void> } 
  */
 exports.seed = async function(knex) {
-  // Deletes ALL existing entries
+
   await knex('marcas').del();
   
-  // Read CSV file
+  // lê os dados do arquivo CSV
   const csvData = fs.readFileSync(path.join(__dirname, '../../../data/marcas.csv'), 'utf8');
   const lines = csvData.split('\n');
   const headers = lines[0].split(',');

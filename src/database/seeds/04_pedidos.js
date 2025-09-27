@@ -6,10 +6,10 @@ const path = require('path');
  * @returns { Promise<void> } 
  */
 exports.seed = async function(knex) {
-  // Deletes ALL existing entries
+  
   await knex('pedidos').del();
   
-  // Read CSV file
+  
   const csvData = fs.readFileSync(path.join(__dirname, '../../../data/pedidos.csv'), 'utf8');
   const lines = csvData.split('\n');
   const headers = lines[0].split(',');
@@ -22,7 +22,7 @@ exports.seed = async function(knex) {
       headers.forEach((header, index) => {
         let value = values[index] ? values[index].trim() : null;
         
-        // Convert numeric and date fields
+        
         if (header === 'id' || header === 'id_cliente') {
           value = value ? parseInt(value) : null;
         } else if (header === 'total') {
@@ -37,6 +37,6 @@ exports.seed = async function(knex) {
     }
   }
   
-  // Inserts seed entries
+  
   await knex('pedidos').insert(pedidos);
 };

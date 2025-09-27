@@ -10,12 +10,21 @@
     "seed": "knex seed:run",
     "rollback": "knex migrate:rollback"
   },
-  "keywords": ["nodejs", "mysql", "knex", "fastify", "orders", "system"],
+  "keywords": [
+    "nodejs",
+    "mysql",
+    "knex",
+    "fastify",
+    "orders",
+    "system"
+  ],
   "author": "Hugo Garcia",
   "license": "MIT",
   "dependencies": {
-    "fastify": "^4.24.3",
     "@fastify/cors": "^8.4.0",
+    "@fastify/swagger": "^8.0.0",
+    "@fastify/swagger-ui": "^4.0.0",
+    "fastify": "^4.24.3",
     "knex": "^3.0.1",
     "mysql2": "^3.6.5"
   },

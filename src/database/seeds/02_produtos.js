@@ -6,7 +6,7 @@ const path = require('path');
  * @returns { Promise<void> } 
  */
 exports.seed = async function(knex) {
-  // Deletes ALL existing entries
+
   await knex('produtos').del();
   
   // Read CSV file
@@ -22,7 +22,6 @@ exports.seed = async function(knex) {
       headers.forEach((header, index) => {
         let value = values[index] ? values[index].trim() : null;
         
-        // Convert numeric fields
         if (header === 'id' || header === 'id_marca' || header === 'estoque') {
           value = value ? parseInt(value) : null;
         } else if (header === 'preco') {

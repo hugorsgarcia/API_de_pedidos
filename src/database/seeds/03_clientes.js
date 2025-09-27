@@ -9,7 +9,7 @@ exports.seed = async function(knex) {
   // Deletes ALL existing entries
   await knex('clientes').del();
   
-  // Read CSV file
+  
   const csvData = fs.readFileSync(path.join(__dirname, '../../../data/clientes.csv'), 'utf8');
   const lines = csvData.split('\n');
   const headers = lines[0].split(',');
@@ -22,7 +22,7 @@ exports.seed = async function(knex) {
       headers.forEach((header, index) => {
         let value = values[index] ? values[index].trim() : null;
         
-        // Convert numeric fields
+        
         if (header === 'id') {
           value = value ? parseInt(value) : null;
         }
@@ -33,6 +33,5 @@ exports.seed = async function(knex) {
     }
   }
   
-  // Inserts seed entries
   await knex('clientes').insert(clientes);
 };
