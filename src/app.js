@@ -19,7 +19,7 @@ fastify.register(require('@fastify/swagger'), {
         email: 'hugo@email.com'
       }
     },
-    host: 'localhost:3000',
+    host: 'localhost:3001',
     schemes: ['http'],
     consumes: ['application/json'],
     produces: ['application/json'],
@@ -168,7 +168,7 @@ fastify.setErrorHandler((error, request, reply) => {
 // Função para iniciar o servidor
 const start = async () => {
   try {
-    const PORT = process.env.PORT || 3000;
+    const PORT = process.env.PORT || 3001;
     const HOST = process.env.HOST || '0.0.0.0';
     
     await fastify.listen({ port: PORT, host: HOST });
