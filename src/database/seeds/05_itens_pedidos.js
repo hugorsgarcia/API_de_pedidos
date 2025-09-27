@@ -10,7 +10,7 @@ exports.seed = async function(knex) {
   await knex('itens_pedidos').del();
   
   // Read CSV file
-  const csvData = fs.readFileSync(path.join(__dirname, '../../data/itens_pedido.csv'), 'utf8');
+  const csvData = fs.readFileSync(path.join(__dirname, '../../../data/itens_pedido.csv'), 'utf8');
   const lines = csvData.split('\n');
   const headers = lines[0].split(',');
   

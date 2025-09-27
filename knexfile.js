@@ -10,7 +10,7 @@ module.exports = {
       host: 'localhost',
       port: 3306,
       user: 'root',
-      password: '',
+      password: 'User-120164360',
       database: 'sistema_pedidos'
     },
     migrations: {
@@ -44,7 +44,7 @@ module.exports = {
       host: process.env.DB_HOST || 'localhost',
       port: process.env.DB_PORT || 3306,
       user: process.env.DB_USER || 'root',
-      password: process.env.DB_PASSWORD || '',
+      password: process.env.DB_PASSWORD || 'User-120164360',
       database: process.env.DB_NAME || 'sistema_pedidos'
     },
     migrations: {
