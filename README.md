@@ -2,15 +2,22 @@
 
 **Desenvolvido por:** Hugo Garcia
 
-Sistema completo para gerenciamento de pedidos desenvolvido em Node.js, utilizando MySQL como banco de dados, Knex.js para migrations e queries, e Fastify como framework web.
+Sistema para gerenciamento de pedidos desenvolvido em Node.js, utilizando MySQL como banco de dados, Knex.js para migrations e queries, e Fastify como framework web.
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Node.js** - Runtime JavaScript
-- **MySQL** - Sistema de gerenciamento de banco de dados
-- **Knex.js** - Query builder e gerenciador de migrations
-- **Fastify** - Framework web rápido e eficiente
-- **Nodemon** - Desenvolvimento com hot reload
+- Node.js — Runtime JavaScript onde o servidor da API executa.
+- MySQL — Banco de dados relacional que armazena marcas, produtos, clientes, pedidos e itens.
+- Knex.js — Query Builder:
+  - Migrations (criam/alteram tabelas)
+  - Seeds (popular dados a partir dos CSVs)
+  - Conexão, transações e queries tipadas para MySQL
+- Fastify — Framework web da API:
+  - Define o servidor HTTP e as rotas REST
+  - Valida requests e responses com JSON Schema
+  - Plugins (CORS, Swagger) e hooks
+  - Tratamento centralizado de erros e logging
+- Swagger (via @fastify/swagger e @fastify/swagger-ui) — Documentação interativa e “Try it out”.
 
 ## 📋 Pré-requisitos
 
